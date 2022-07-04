@@ -1,8 +1,8 @@
-let firstNumber = 3;
-let secondNumber = 10;
-function result (firstNumber,secondNumber){
-    let suma = firstNumber + secondNumber;
+let firstNumber= 3;
+let secondNumber= 10;
+function result (num1,num2 ){
+    let suma = num1 + num2;
     return suma;
 }
-console.log(result(3,10));
+console.log(result (firstNumber, secondNumber));
 
